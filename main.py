@@ -52,9 +52,9 @@ def visualize_results(view, dataset_info, metrics, source_clouds, clouds, model)
         print("\n • DATASET INFORMATION\n" + dataset_info.to_markdown())
         print("\n • METRICS SUMMARY\n" + metrics.to_markdown() + "\n")
         plt.show()
-        # visualization.display(source_clouds, "Raw Clouds")
+        visualization.display(source_clouds, "Raw Clouds")
         visualization.display(clouds, "Model Result", COLORS)
-        # visualization.display(model, "Aligned Clouds", (0.5,0.5,0.5))
+        visualization.display(model, "Aligned Clouds", (0.5,0.5,0.5))
         
 
 if __name__ == "__main__":
