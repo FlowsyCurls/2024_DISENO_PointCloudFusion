@@ -74,7 +74,3 @@ if __name__ == "__main__":
     # Output
     save_results(metrics, model, ARGS.format)
     visualize_results(not ARGS.noview, dataset_info, metrics, source_clouds, clouds, model)
-
-
-    # python src/main.py -i 1 -t -n 8 -o output/result -f ply
-    # python src/main.py -i stanford-bunny -n 7 -m icp -o output/result -f ply
