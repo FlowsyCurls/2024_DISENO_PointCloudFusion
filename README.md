@@ -66,7 +66,7 @@ python main.py -i stanford-bunny -n 3 -v 0.008
 ```
 
 ### Results
-![models](doc/models.png)
+![models](doc/result_test1.gif)
 
 ## License
 
